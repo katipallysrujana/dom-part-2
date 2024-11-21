@@ -18,7 +18,7 @@ console.log(allSelectors);
 const newDiv1 = document.createElement("div");
 newDiv1.innerText = "New Div1";
 const image = document.createElement("img");
-image.src="https://cdn.pixabay.com/photo/2015/01/15/16/17/hands-600497_1280.jpg"
+image.src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_640.jpg"
 image.width="400"
 
 // Append child
@@ -49,7 +49,7 @@ contentDiv.innerText = "Updated with innerText";
 
 //  Set attribute
 let pic = document.createElement("img")
-pic.setAttribute("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq-lIU4ct_HPjpcgKerthDDDwwtcQg2tPsdw&s")
+pic.setAttribute("src", "https://www.wallpapergeeks.com/wp-content/uploads/2014/03/Nature_107.jpg")
 pic.setAttribute("width", 400)
 document.body.appendChild(pic)
 
